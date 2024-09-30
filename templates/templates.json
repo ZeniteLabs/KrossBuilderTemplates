@@ -1,0 +1,19 @@
+{
+    "templates": [
+      {
+        "id": "compose-multiplatform",
+        "name": "Compose Multiplatform",
+        "description_short": "Template for a Jetpack Compose application.",
+        "description_long": "This template sets up a Jetpack Compose project for building UI with modern Kotlin components and Compose APIs.",
+        "icon": "https://example.com/icons/compose_template.png",
+        "platforms": [
+          "ANDROID", "IOS", "DESKTOP", "WASM"
+        ],
+        "module_root": "composeApp",
+        "project_id": "com.example.composeapp",
+        "dependency_module": "composeApp/build.gradle",
+        "source_path": "compose-multiplatform" 
+      }
+    ]
+  }
+  
